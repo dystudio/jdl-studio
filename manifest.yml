@@ -1,0 +1,8 @@
+---
+applications:
+  - name: jdl-studio
+    path: dist
+    buildpacks:
+      - staticfile_buildpack
+    routes:
+      - route: jdl-studio-dev.apps.dhccloud.com.cn
